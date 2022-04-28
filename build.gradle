@@ -48,6 +48,8 @@ java {
 }
 
 repositories {
+    maven {url 'https://maven.aliyun.com/nexus/content/groups/public/'}
+    //使用国内阿里云镜像,避免无法访问repo.maven.apache.org/maven2错误
     mavenCentral()
 }
 
